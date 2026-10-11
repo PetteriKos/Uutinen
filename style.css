@@ -1,0 +1,125 @@
+/* Sivun yleiset asetukset */
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+}
+
+
+/* Yläosa */
+
+header {
+    background-color: #0079C2;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+/* Sivun pääsisältö */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+/* Logo */
+
+.logo {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 auto 40px;
+}
+
+
+/* Otsikot */
+
+h2 {
+    color: #0079C2;
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+
+/* Teksti */
+
+p {
+    font-size: 18px;
+}
+
+
+/* Luettelo */
+
+ul {
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* Sitaatti */
+
+blockquote {
+    border-left: 5px solid #0079C2;
+    margin: 25px 0;
+    padding: 15px 20px;
+    background-color: #f2f8fc;
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+/* Alatunniste */
+
+footer {
+    background-color: #0079C2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Mobiilinäkymä */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    main {
+        padding: 25px 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p,
+    ul {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 220px;
+    }
+}
